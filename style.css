@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam&display=swap');
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+
+div{
+    height: 33.33vh;
+}
+
+input[type=number]{
+    height: 100%;
+    width: 100%;
+    margin: 0% auto;
+    background: black;
+    color: white;
+    font-size: 10em;
+    text-align: center;
+    border: none;
+    font-family: 'Kalam', cursive;
+}
+
+input[type=number]:focus{
+    outline: none;
+}
